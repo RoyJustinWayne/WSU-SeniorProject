@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>WeatherStation</title>
+    
+</head>
+<body>
+    <div id="clock">
+            <div id="wtitle"><h1>Weather Station Server Timer</h1></div>
+        <span class="time">{{ time }}</span>
+        
+        <div class="btn-container">
+          <a id="start">Start</a>
+          <a id="stop">Stop</a>
+          <a id="reset">Reset</a>
+        </div>
+         <!-- <button id="btn">Server Status</button>
+    <div id="status">OK</div> -->
+    <!-- <h1>Server Status: <span id="status">OK</span></h1> -->    
+</div>
+<!-- <button id="btn">Server Status</button>
+<div id="status">OK</div>   -->
+<div class="div2"><h1> Server Status: <span class="blink" id="status">OK</span></h1></div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

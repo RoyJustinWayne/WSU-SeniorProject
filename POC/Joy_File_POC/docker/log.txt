@@ -1,0 +1,19 @@
+2018-10-11 21:47:29    INFO    createEnvironment is starting.
+2018-10-11 21:47:30    INFO    Using elasticbeanstalk-region-id as Amazon S3 storage bucket for environment data.
+2018-10-11 21:47:49    INFO    Created target group named: arn:aws:elasticloadbalancing:region:id:targetgroup/awseb-AWSEB-Target
+2018-10-11 21:47:49    INFO    Created security group named: sg-id
+2018-10-11 21:48:04    INFO    Created security group named: awseb-e-group-stack-AWSEBSecurityGroup-id
+2018-10-11 21:48:04    INFO    Created Auto Scaling launch configuration named: awseb-e-group-stack-AWSEBAutoScalingLaunchConfiguration-id
+2018-10-11 21:49:06    INFO    Created Auto Scaling group named: awseb-e-group-stack-AWSEBAutoScalingGroup-id
+2018-10-11 21:49:06    INFO    Waiting for EC2 instances to launch. This may take a couple mins.
+2018-10-11 21:49:06    INFO    Created Auto Scaling group policy named: arn:aws:autoscaling:region:id:scalingPolicy:policy_name:autoScalingGroupName/awseb-e-group-stack-AWSEBAutoScalingGroup-id:policyName/awseb-e-group-stack-AWSEBAutoScalingScaleUpPolicy-id
+2018-10-11 21:49:06    INFO    Created Auto Scaling group policy named: arn:aws:autoscaling:region:id:scalingPolicy:policy_name:autoScalingGroupName/awseb-e-group-stack-AWSEBAutoScalingGroup-id:policyName/awseb-e-group-stack-AWSEBAutoScalingScaleDownPolicy-id
+2018-10-11 21:49:06    INFO    Created CloudWatch alarm named: awseb-e-group-stack-AWSEBCloudwatchAlarmHigh-id
+2018-10-11 21:49:06    INFO    Created CloudWatch alarm named: awseb-e-group-stack-AWSEBCloudwatchAlarmLow-id
+2018-10-11 21:49:53    INFO    Created load balancer named: arn:aws:elasticloadbalancing:region:id:loadbalancer/app/awseb-AWSEB-id/
+2018-10-11 21:49:54    INFO    Created Load Balancer listener named: arn:aws:elasticloadbalancing:region:id:listener/app/awseb-AWSEB-id/
+2018-10-11 21:50:17    INFO    Successfully pulled node:version
+2018-10-11 21:50:29    INFO    Successfully built aws_beanstalk/staging-app
+2018-10-11 21:50:37    INFO    Docker container image_id is running aws_beanstalk/current-app.
+2018-10-11 21:50:52    INFO    Application available at URI
+2018-10-11 21:50:52    INFO    Successfully launched environment: APP

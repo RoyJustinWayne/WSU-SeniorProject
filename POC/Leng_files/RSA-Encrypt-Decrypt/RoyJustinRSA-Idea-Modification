@@ -1,0 +1,30 @@
+from Crypto.PublicKey import RSA
+from Crypto.Random import get_random_bytes
+from Crypto.Cipher import AES, PKCS1_OAEP
+
+with open("testData.txt","r+b") as f:
+	#import public key
+	key = RSA.importKey(open("public.pem","r").read()) 
+	#print pub key
+	print(key)
+	#put public key into correct format
+	cipher_rsa = PKCS1_OAEP.new(key) 
+	print(cipher_rsa)
+	#enc key with the session key 
+	enc_file = cipher_rsa.encrypt(f.read())
+	
+	print("Encrypted file is: " , enc_file) 
+	f.seek(0)
+	f.truncate()
+	f.write(enc_file)
+	#f.close
+	
+	#f = open("Mm::Dd:Ss-testData.txt", "w")
+	#f.write (enc file)
+	
+	#Can we make this write to a new file AND the current file?
+	#My idea is to do delete older file, and even so, its still encrypted but deleted.
+	#New file is "Mm::dd::ss-testData.txt" so when I check for "Grab oldest file" or "Open file that is oldest" (Python has a findmin file or whatever)
+	#It will be a single encrypted file and reduce the headache of decrypting and encrypting again.
+	#Everytime this script is ran, it outputs a new file, then when I grab it, i'll grab oldest version, read through it, and send, and delete the file if needed.	
+	f.close()

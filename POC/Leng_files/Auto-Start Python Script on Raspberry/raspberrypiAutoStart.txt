@@ -1,0 +1,13 @@
+
+
+First off start write your .py script 
+
+Then in Terminal sudo nano /etc/profile 
+
+Navigate to the bottom, and paste this " sudo /usr/bin/python /home/pi/helloworld.py & 
+
+Hit CTRL-X then Y then Enter 
+
+Do sudo reboot 
+
+When the system reboot it should auto output Hello World into a txt file in your home/pi called testpy.txt 
