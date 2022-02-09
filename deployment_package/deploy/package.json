@@ -37,7 +37,7 @@
     "react-router": "^4.2.0",
     "session-file-store": "^1.2.0",
     "twilio": "^3.14.0",
-    "yarn": "^1.5.1"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",
