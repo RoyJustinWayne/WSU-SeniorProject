@@ -47,7 +47,7 @@
     "chai-webdriver": "^1.2.0",
     "css-loader": "^0.28.10",
     "mocha": "^5.0.5",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "react-scripts": "1.1.0",
     "sass-loader": "^6.0.7",
     "selenium-webdriver": "^4.0.0-alpha.1",
