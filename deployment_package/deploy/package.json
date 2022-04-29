@@ -13,7 +13,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^2.6.4",
     "bcrypt": "^1.0.3",
     "bookshelf": "^0.12.1",
     "connect-flash": "^0.1.1",
