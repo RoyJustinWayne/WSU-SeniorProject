@@ -9,7 +9,7 @@ future==0.16.0
 gps3==0.33.3
 idna==2.6
 macholib==1.9
-numpy==1.14.2
+numpy==1.22.0
 pathlib==1.0.1
 pefile==2017.11.5
 Pillow==5.0.0
