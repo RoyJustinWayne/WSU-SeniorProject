@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "chart.js": "^2.7.2",
     "classnames": "^2.2.5",
     "dc": "^2.1.9",
